@@ -1,0 +1,17 @@
+{
+	"name": "ATITD Extensions",
+	"version": "1.0.0",
+	"author": [
+		"[[User:Brad|Brad]]"
+	],
+	"url": "https://github.com/atitd-community/mediawiki-atitdextensions",
+	"descriptionmsg": "Adds an 'atitd' extension type for clearly marking ATITD-specific extensions",
+	"type": "atitd",
+	"AutoloadClasses": {
+		"ATITDExtensions": "ATITDExtensions_body.php"
+	},
+	"Hooks": {
+		"ExtensionTypes": "ATITDExtensions::onExtensionTypes"
+	},
+	"manifest_version": 1
+}
